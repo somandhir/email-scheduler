@@ -1,0 +1,182 @@
+body {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.container {
+  max-width: 850px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #0d6efd;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  color: #495057;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.tabs {
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.tab {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 5px;
+  border-radius: 5px 5px 0 0;
+  background-color: #e9ecef;
+  color: #495057;
+  transition: all 0.3s;
+}
+
+.tab:hover {
+  background-color: #dee2e6;
+}
+
+.tab.active {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.form-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #495057;
+}
+
+button[type="submit"] {
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0b5ed7;
+}
+
+#message-container {
+  margin-bottom: 20px;
+}
+
+.message {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #dee2e6;
+}
+
+th {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+tbody tr:hover {
+  background-color: #f1f3f5;
+}
+
+#refresh-jobs {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#refresh-jobs:hover {
+  background-color: #5a6268;
+}
+
+button[style*="background-color: #dc3545"] {
+  background-color: #dc3545 !important;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[style*="background-color: #dc3545"]:hover {
+  background-color: #c82333 !important;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+
+  .tabs {
+    flex-direction: column;
+  }
+
+  .tab {
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+}
