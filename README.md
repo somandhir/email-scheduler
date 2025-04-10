@@ -54,6 +54,8 @@ The application is divided into three tabs:
 }
 ```
 
+---
+
 ##  How to Run Locally
 
 1. **Clone the repository**
@@ -85,6 +87,8 @@ node index.js
 ```bash
 http://localhost:1338
 ```
+
+---
 
 ## 📡 API Endpoints Summary
 
