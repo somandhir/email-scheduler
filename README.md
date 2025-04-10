@@ -4,11 +4,11 @@ A Node.js-based email scheduling web application that allows users to send **one
 
 ## Features
 
-- ✅ Send **one-time emails** to multiple recipients
-- 🔁 Schedule **recurring emails** with custom patterns (daily, weekly, monthly, yearly)
-- 📅 Manage and cancel scheduled emails
-- 🕰️ Converts IST to UTC to ensure time-zone aware scheduling
-- 🔒 Validates all inputs including recipient emails and schedule times
+-  Send **one-time emails** to multiple recipients
+-  Schedule **recurring emails** with custom patterns (daily, weekly, monthly, yearly)
+-  Manage and cancel scheduled emails 📅
+-  Converts IST to UTC to ensure time-zone aware scheduling
+-  Validates all inputs including recipient emails and schedule times
 
 ---
 
@@ -54,7 +54,7 @@ The application is divided into three tabs:
 }
 ```
 
-## 🧰 How to Run Locally
+##  How to Run Locally
 
 1. **Clone the repository**
 
